@@ -7,7 +7,7 @@ apt install -y apt-transport-https
 apt install -y virtualbox docker-ce wine wine64
 
 # Development
-apt install -y php7.4-fpm redis golang jython
+apt install -y php7.4-fpm tomcat9 redis golang jython
 
 # Dependency
 apt install -y python-pip python3-pip python3-venv composer
