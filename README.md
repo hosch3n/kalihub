@@ -6,9 +6,11 @@
 
 [2.install_app.sh](./2.install_app.sh) 安装常用软件
 
-[9.add_grub_passwd.sh](./9.add_grub_passwd.sh) 添加grub引导密码
+[8.add_grub_passwd.sh](./8.add_grub_passwd.sh) 添加grub引导密码
 
-[9.install_nvidia_driver.sh](./9.install_nvidia_driver.sh) 安装英伟达独显闭源驱动
+[8.install_nvidia_driver.sh](./8.install_nvidia_driver.sh) 安装英伟达独显闭源驱动
+
+[9.gen_passwds.sh](./9.gen_passwds.sh)
 
 ---
 
