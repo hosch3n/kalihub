@@ -13,6 +13,7 @@ if [[ "${passworda}" == "${passwordb}" ]]; then
   sed -i "1i password_pbkdf2 ${username} ${password}" "${GRUB_CONFIG_CONFIG}"
   sed -i "1i set superusers=\"${username}\"" "${GRUB_CONFIG_CONFIG}"
   chmod -w "${GRUB_CONFIG_CONFIG}"
-  break
+  exit
 else
-  echo -e "\nConfirm_failed!" >&2
+  echo -e "\nConfirm failed!" >&2
+fi
