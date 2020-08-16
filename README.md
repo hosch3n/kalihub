@@ -43,3 +43,7 @@
 ---
 
 ```for i in `ip addr | sed -r -n 's/^[0-9]+: (.*):.*/\1/p' | grep -v 'lo\|wlan\|eth0\|docker0'`; do sudo ifconfig ${i} down; done``` 清掉一些残留的docker虚拟网卡
+
+--- 
+
+[Goldberg_Lan_Steam_Emu_v0.2.5.zip](./Goldberg_Lan_Steam_Emu_v0.2.5.zip) 是Steam模拟器，可以用来破解一些游戏的简单校验
