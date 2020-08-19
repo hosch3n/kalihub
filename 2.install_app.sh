@@ -16,7 +16,7 @@ apt install -y python-pip python3-pip python3-venv composer
 apt install -y php-xdebug gdb strace android-tools-adb fastboot
 
 # Security
-apt install -y foremost volatility
+apt install -y foremost volatility apktool
 gem install evil-winrm
 
 # Common
