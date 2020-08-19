@@ -10,7 +10,9 @@
 
 [8.install_nvidia_driver.sh](./8.install_nvidia_driver.sh) 安装英伟达独显闭源驱动
 
-[9.gen_passwds.sh](./9.gen_passwds.sh)
+[9.gen_passwds.sh](./9.gen_passwds.sh) 通过hashcat规则生成密码
+
+[9.xray.sh](./9.xray.sh) XRay被动扫描模式
 
 ---
 
@@ -34,7 +36,7 @@
 
 ---
 
-[xdebug](./config/php.ini) 的配置文件，追加至php.ini文件末尾
+[xdebug](./config/php.ini)和开启生成Phar 的配置文件，追加至php.ini文件末尾
 
 ---
 
