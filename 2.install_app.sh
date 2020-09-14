@@ -5,6 +5,7 @@ apt install -y apt-transport-https
 
 # Virtualization
 apt install -y virtualbox docker-ce wine wine64
+usermod -G vboxusers -a hosch3n
 
 # Development
 apt install -y php7.4-fpm tomcat9 redis golang jython
