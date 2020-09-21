@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# pip TsingHua Mirror Source
+declare -r PIP_TSINGHUA_SOURCE='https://pypi.tuna.tsinghua.edu.cn/simple'
+
 # Enable HTTPS Support
 apt install -y apt-transport-https
 
@@ -8,7 +11,7 @@ apt install -y virtualbox docker-ce wine wine64
 usermod -G vboxusers -a hosch3n
 
 # Development
-apt install -y php7.4-fpm tomcat9 redis golang jython
+apt install -y chromium php7.4-fpm tomcat9 redis golang jython
 #npm install multihashes
 
 # Dependency
@@ -29,8 +32,9 @@ apt install -y keepass2 fcitx fcitx-googlepinyin audacity ffmpeg obs-studio \
 #apt install -y fcitx-libs qml-module-qtquick2 libqt5quickwidgets5
 #dpkg -i sogouimebs_2.0.0.38+0428.1_amd64.deb
 
-pip install pwntools zio
-pip3 install docker-compose pyjwt pycryptodome py2exe threadpool you-get
+pip install -i "${PIP_TSINGHUA_SOURCE}" pwntools zio
+pip3 install -i "${PIP_TSINGHUA_SOURCE}" \
+ docker-compose pyjwt pycryptodome py2exe threadpool you-get
 
 # Proxy
-bash <(curl -sL https://install.direct/go.sh)
+apt install v2ray trojan
