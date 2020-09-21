@@ -20,7 +20,7 @@
 
 ---
 
-`cp ./.ssh/config ~/.ssh/config` 设置ssh每60秒重连，避免超时挂了
+`cp ./config/.ssh/config ~/.ssh/config` 设置ssh每60秒重连，避免超时挂了
 
 ---
 
