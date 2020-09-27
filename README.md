@@ -1,6 +1,6 @@
 # kalihub
 
-- 用于 kali-linux-2020.2-gnome-amd64.iso，其它版本不保证兼容
+- 用于 kali-linux-2020.3-gnome-amd64.iso，其它版本不保证兼容
 
 [1.add_source.sh](./1.add_source.sh) 添加中科大和官方的apt源、docker源
 
