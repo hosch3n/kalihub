@@ -15,7 +15,7 @@ apt install -y chromium php7.4-fpm php7.4-curl tomcat9 redis golang jython
 #npm install multihashes
 
 # Dependency
-apt install -y python-pip python3-pip python3-venv composer libssl-dev
+apt install -y python-pip python3-pip python3-venv composer maven libssl-dev
 
 # Debug
 apt install -y php-xdebug gdb strace android-tools-adb fastboot
