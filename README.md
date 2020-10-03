@@ -16,6 +16,8 @@
 
 [9.buildAoiAWD.sh](./9.buildAoiAWD.sh) 自动编译生成AoiAWD，要先自行解决NodeJS与MongoDB的环境变量
 
+[LookHere.zip](./LookHere.zip) 编译后的二进制文件
+
 ---
 
 `dconf load / < ./config/dconf-settings.ini` 还原Gnome配置
