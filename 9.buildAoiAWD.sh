@@ -19,6 +19,10 @@ cd Frontend
 npm install
 npm run build
 
+# Install Dependency
+apt install libinotifytools0-dev php-mongodb
+echo "extension=mongo" >> /etc/php/"${PHPCLIVER}"/cli/php.ini
+
 # Open Phar
 sed -i 's/;phar.readonly = On/phar.readonly = Off/g' /etc/php/"${PHPCLIVER}"/cli/php.ini
 
@@ -35,9 +39,6 @@ php compile.php
 # Build RoundWorm
 cd ../RoundWorm/
 make
-
-# Install Dependency
-apt install libinotifytools0-dev
 
 # Build RoundWorm
 make
