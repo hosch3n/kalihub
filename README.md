@@ -14,6 +14,8 @@
 
 [9.xray.sh](./9.xray.sh) XRay被动扫描模式
 
+[9.mongo.sh](./9.mongo.sh) 手动安装MongoDB后的配置
+
 ---
 
 `dconf load / < ./config/dconf-settings.ini` 还原Gnome配置
