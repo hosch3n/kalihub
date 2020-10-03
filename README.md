@@ -14,7 +14,7 @@
 
 [9.xray.sh](./9.xray.sh) XRay被动扫描模式
 
-[9.mongo.sh](./9.mongo.sh) 手动安装MongoDB后的配置
+[9.buildAoiAWD.sh](./9.buildAoiAWD.sh) 自动编译生成AoiAWD，要先自行解决NodeJS与MongoDB的环境变量
 
 ---
 
