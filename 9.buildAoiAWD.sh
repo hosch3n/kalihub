@@ -3,14 +3,14 @@
 # 先自行解决NodeJS与MongoDB的环境变量
 # https://github.com/DasSecurity-Labs/AoiAWD/blob/master/BUILD.md
 
-declare -r RUNUSER='hoschen'
+declare -r RUNUSER=$(whoami)
 declare -r PHPCLIVER=7.4
 
 # Configuration MongoDB
-mkdir -p /var/lib/mongo
-mkdir -p /var/log/mongodb
-chown "${RUNUSER}" /var/lib/mongo
-chown "${RUNUSER}" /var/log/mongodb
+sudo mkdir -p /var/lib/mongo
+sudo mkdir -p /var/log/mongodb
+sudo chown "${RUNUSER}" /var/lib/mongo
+sudo chown "${RUNUSER}" /var/log/mongodb
 mongod --dbpath /var/lib/mongo --logpath /var/log/mongodb/mongod.log --fork
 mongod --dbpath /var/lib/mongo --logpath /var/log/mongodb/mongod.log --shutdown
 
@@ -20,11 +20,11 @@ npm install
 npm run build
 
 # Install Dependency
-apt install libinotifytools0-dev php-mongodb
-echo "extension=mongo" >> /etc/php/"${PHPCLIVER}"/cli/php.ini
+sudo apt install libinotifytools0-dev php-mongodb
+sudo echo "extension=mongo" >> /etc/php/"${PHPCLIVER}"/cli/php.ini
 
 # Open Phar
-sed -i 's/;phar.readonly = On/phar.readonly = Off/g' /etc/php/"${PHPCLIVER}"/cli/php.ini
+sudo sed -i 's/;phar.readonly = On/phar.readonly = Off/g' /etc/php/"${PHPCLIVER}"/cli/php.ini
 
 # Build Core
 cd ../AoiAWD
