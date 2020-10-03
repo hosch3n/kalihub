@@ -1,6 +1,8 @@
 #!/bin/bash
 
 # 先自行解决NodeJS与MongoDB的环境变量
+# https://nodejs.org/en/download/
+# https://www.mongodb.com/try/download/community
 # https://github.com/DasSecurity-Labs/AoiAWD/blob/master/BUILD.md
 
 declare -r RUNUSER=$(whoami)
