@@ -38,3 +38,7 @@ pip3 install -i "${PIP_TSINGHUA_SOURCE}" \
 
 # Proxy
 apt install v2ray trojan
+
+# CVE-2020-1472
+apt remove --purge impacket-scripts python3-
+impacket
