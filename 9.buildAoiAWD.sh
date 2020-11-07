@@ -56,3 +56,4 @@ mv AoiAWD/aoiawd.phar ./LookHere/
 mv Guardian/guardian.phar ./LookHere/
 mv TapeWorm/tapeworm.phar ./LookHere/
 mv RoundWorm/roundworm ./LookHere/
+cp -R AoiAWD/plugins/ ./LookHere/
