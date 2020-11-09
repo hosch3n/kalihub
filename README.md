@@ -16,7 +16,7 @@
 
 [9.buildAoiAWD.sh](./9.buildAoiAWD.sh) 自动编译生成AoiAWD，要先自行解决NodeJS与MongoDB的环境变量
 
-[LookHere.zip](./LookHere.zip) 编译后的二进制文件
+[LookHere.zip](./LookHere.zip) AoiAWD编译后的二进制文件，稍微改了下插件
 
 ---
 
@@ -40,7 +40,7 @@
 
 ---
 
-[xdebug](./config/php.ini)和开启生成Phar 的配置文件，追加至php.ini文件末尾
+[xdebug](./config/php.ini)、开启生成Phar、MongoDB、调整opcache 的配置文件
 
 ---
 
