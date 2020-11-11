@@ -6,6 +6,9 @@
 
 [2.install_app.sh](./2.install_app.sh) 安装常用软件
 
+[3.get-pip.py](./3.get-pip.py) 安装pip2 `sudo python2.7 get-pip.py`
+- 新Kali已经移除了python2-pip（pip2），需要手动安装 https://bootstrap.pypa.io/get-pip.py
+
 [8.add_grub_passwd.sh](./8.add_grub_passwd.sh) 添加grub引导密码
 
 [8.install_nvidia_driver.sh](./8.install_nvidia_driver.sh) 安装英伟达独显闭源驱动
