@@ -27,7 +27,7 @@ gem install evil-winrm zsteg
 
 # Common
 apt install -y keepass2 fcitx fcitx-googlepinyin audacity ffmpeg obs-studio \
- aria2 mesa-utils kchmviewer
+ aria2 mesa-utils lm-sensors kchmviewer telegram-desktop
 
 # SouGouPinyin
 #apt install -y fcitx-libs qml-module-qtquick2 libqt5quickwidgets5
