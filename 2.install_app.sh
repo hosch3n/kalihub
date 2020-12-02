@@ -11,8 +11,8 @@ apt install -y virtualbox docker-ce wine wine64
 usermod -G vboxusers -a hosch3n
 
 # Development
-apt install -y chromium php7.4-fpm php7.4-curl tomcat9 redis golang jython \
- sshpass
+apt install -y chromium php7.4-fpm php7.4-curl php7.4-gd golang jython \
+ tomcat9 redis sshpass
 #npm install multihashes
 
 # Dependency
