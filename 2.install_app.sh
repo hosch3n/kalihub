@@ -22,7 +22,7 @@ apt install -y python-pip python3-pip python3-venv composer maven libssl-dev
 apt install -y php-xdebug gdb strace android-tools-adb fastboot
 
 # Security
-apt install -y foremost volatility apktool
+apt install -y foremost volatility apktool bloodhound
 gem install evil-winrm zsteg
 
 # Common
